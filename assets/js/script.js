@@ -53,6 +53,10 @@ function movimentacao(evt){
       if (map[linhaAlvo][playerBloco] === " ") {
         alvo.appendChild(player);
 
+      } else if (map[linhaAlvo][playerBloco] === "F"){
+        // console.log("u win!")
+        alvo.appendChild(player);
+        mensagemVitoria();
       } else {
         console.log("Movimento inválido.")
       }
@@ -66,8 +70,9 @@ function movimentacao(evt){
         alvo.appendChild(player);
 
       } else if (map[playerLinha][blocoAlvo] === "F"){
-        console.log("u win!")
+        // console.log("u win!")
         alvo.appendChild(player);
+        mensagemVitoria();
       } else {
         console.log("Movimento inválido.")
       }
@@ -83,8 +88,9 @@ function movimentacao(evt){
         alvo.appendChild(player);
 
       } else if (map[linhaAlvo][playerBloco] === "F"){
-        console.log("u win!")
+        // console.log("u win!")
         alvo.appendChild(player);
+        mensagemVitoria();
       } else {
         console.log("Movimento inválido.")
       }
@@ -98,8 +104,9 @@ function movimentacao(evt){
         alvo.appendChild(player);
 
       } else if (map[playerLinha][blocoAlvo] === "F"){
-        console.log("u win!")
+        // console.log("u win!")
         alvo.appendChild(player);
+        mensagemVitoria();
       } else {
         console.log("Movimento inválido.")
       }
@@ -109,20 +116,11 @@ function movimentacao(evt){
     }
 }
 
-//verifica possibilidade de movimentação
-// function possivelMover(player, evt) {
+function mensagemVitoria() {
 
-//   if (){
-
-//   }
-
-//   return false;
-// }
-
-
-
-
-
-/*
-parentAlvo = Number(tmpParentLinha) - 1;
-*/
+  const a = document.getElementsByClassName("tabuleiro");
+  const b = document.createElement("div");
+  b.setAttribute("id", "msgVitoria");
+  b.innerText = "Você ganhou!";
+  a[0].appendChild(b);
+}

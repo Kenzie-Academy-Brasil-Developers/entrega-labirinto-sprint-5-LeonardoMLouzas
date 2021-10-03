@@ -8,23 +8,23 @@ INFORMAÇÕES PARA CRIAR O TABLUEIRO:
 
 */
 
-// const map = [
-//     "WWWWWWWWWWWWWWWWWWWWW",
-//     "W   W     W     W W W",
-//     "W W W WWW WWWWW W W W",
-//     "W W W   W     W W   W",
-//     "W WWWWWWW W WWW W W W",
-//     "W         W     W W W",
-//     "W WWW WWWWW WWWWW W W",
-//     "W W   W   W W     W W",
-//     "W WWWWW W W W WWW W F",
-//     "S     W W W W W W WWW",
-//     "WWWWW W W W W W W W W",
-//     "W     W W W   W W W W",
-//     "W WWWWWWW WWWWW W W W",
-//     "W       W       W   W",
-//     "WWWWWWWWWWWWWWWWWWWWW",
-// ];
+const map = [
+    "WWWWWWWWWWWWWWWWWWWWW",
+    "W   W     W     W W W",
+    "W W W WWW WWWWW W W W",
+    "W W W   W     W W   W",
+    "W WWWWWWW W WWW W W W",
+    "W         W     W W W",
+    "W WWW WWWWW WWWWW W W",
+    "W W   W   W W     W W",
+    "W WWWWW W W W WWW W F",
+    "S     W W W W W W WWW",
+    "WWWWW W W W W W W W W",
+    "W     W W W   W W W W",
+    "W WWWWWWW WWWWW W W W",
+    "W       W       W   W",
+    "WWWWWWWWWWWWWWWWWWWWW",
+];
 
 // const map = [
 //     "WWWWWWWWWWWWWWWWWWWWW",
@@ -44,20 +44,38 @@ INFORMAÇÕES PARA CRIAR O TABLUEIRO:
 //     "WWWWWWWWWWWWWWWWWWWWW",
 // ];
 
-const map = [
-    "WWWWWWWWWWWWWWWWWWWSW",
-    "W   W     W     W W W",
-    "W W W WWW WWWWW W W W",
-    "W W W   W     W W   W",
-    "W WWWWWWW W WWW W W W",
-    "W         W     W W W",
-    "W WWW WWWWW WWWWW W W",
-    "W W   W   W W     W W",
-    "W WWWWW W W W WWW W W",
-    "W     W W W W W W WWW",
-    "WWWWW W W W W W W W W",
-    "W     W W W   W W W W",
-    "W WWWWWWW WWWWW W W W",
-    "W       W       W   W",
-    "WFWWWWWWWWWWWWWWWWWWW",
-];
+// const map = [
+//     "WWWWWWWWWWWWWWWWWWWSW",
+//     "W   W     W     W W W",
+//     "W W W WWW WWWWW W W W",
+//     "W W W   W     W W   W",
+//     "W WWWWWWW W WWW W W W",
+//     "W         W     W W W",
+//     "W WWW WWWWW WWWWW W W",
+//     "W W   W   W W     W W",
+//     "W WWWWW W W W WWW W W",
+//     "W     W W W W W W WWW",
+//     "WWWWW W W W W W W W W",
+//     "W     W W W   W W W W",
+//     "W WWWWWWW WWWWW W W W",
+//     "W       W       W   W",
+//     "WFWWWWWWWWWWWWWWWWWWW",
+// ];
+
+// const map = [
+//     "WWWWWWWWWWWWWWWWWWWFW",
+//     "W   W     W     W W W",
+//     "W W W WWW WWWWW W W W",
+//     "W W W   W     W W   W",
+//     "W WWWWWWW W WWW W W W",
+//     "W         W     W W W",
+//     "W WWW WWWWW WWWWW W W",
+//     "W W   W   W W     W W",
+//     "W WWWWW W W W WWW W W",
+//     "W     W W W W W W WWW",
+//     "WWWWW W W W W W W W W",
+//     "W     W W W   W W W W",
+//     "W WWWWWWW WWWWW W W W",
+//     "W       W       W   W",
+//     "WSWWWWWWWWWWWWWWWWWWW",
+// ];

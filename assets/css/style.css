@@ -60,7 +60,6 @@ body {
 }
 div .w {
     background-color:black;
-    border: 1px dashed red;
 }
 
 .espaco {
@@ -74,4 +73,22 @@ div .w {
 
 .f {
     background-color:white;
+}
+
+#msgVitoria {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 2px solid;
+    border-radius: 30px;
 }
