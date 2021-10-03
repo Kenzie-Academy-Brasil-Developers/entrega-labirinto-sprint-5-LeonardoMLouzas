@@ -67,6 +67,7 @@ div .w {
 }
 
 .s {
+    background-image: url(img/frog.png);
     background-color:blue;
     height: 100%;
 }
