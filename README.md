@@ -2,6 +2,8 @@
 
 This is a labyrinth game made with JavaScript that renders the walls, the player and the finish from an array.
 You can use W,A,S,D or the arrows keys to move the player.
+
+LINK: https://kenzie-academy-brasil-developers.github.io/entrega-labirinto-sprint-5-LeonardoMLouzas/
 ![maze.gif](https://files-kenzie-academy-brasil.s3.amazonaws.com/maze.gif)
 
 This js code represents how the labyrinth was made. Each "W" is a wall, the "S" is the start position and the "F" is the finish line. The empty spaces are the path where the player can move.
